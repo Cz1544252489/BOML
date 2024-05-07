@@ -1,5 +1,7 @@
 import os
 import sys
+import warnings
+warnings.filterwarnings('ignore',category=FutureWarning)
 
 sys.path.append("../")
 os.environ["DATASETS_FOLDER"] = "../data/"
